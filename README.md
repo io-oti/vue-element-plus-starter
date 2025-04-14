@@ -10,6 +10,18 @@ This template should help get you started developing with Vue 3 + Element Plus i
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
+## Quick Start
+
+Recommend using [degit](https://www.npmjs.com/package/degit) to quickly start projects.
+
+```sh
+npm install -g degit
+```
+
+```sh
+degit git@github.com:io-oti/vue-element-plus-starter.git [your new project]
+```
+
 ## Project Setup
 
 ```sh

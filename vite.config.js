@@ -51,6 +51,7 @@ export default defineConfig({
   server: {
     port: 8192,
     open: true,
+    host: true,
     proxy: {
       // '/api': 'some api url'
     },

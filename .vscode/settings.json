@@ -5,7 +5,9 @@
     // "source.sortImports": "explicit"
   },
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -16,7 +18,7 @@
   "explorer.fileNesting.patterns": {
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*",
     "README.md": ".editorconfig, .eslint*, eslint*, .prettier*, prettier*",
-    "vite.config.*": ".git*, jsconfig*, vitest.config.*",
+    "vite.config.*": ".env*, .git*, jsconfig*, vitest.config.*",
   },
   // #endregion ----------------------------------------------------------------
   // #region - extensions - Vue - Official -------------------------------------
@@ -27,6 +29,7 @@
     "axios",
     "pinia",
     "unplugin",
+    "vite",
   ],
   // #endregion ----------------------------------------------------------------
 }

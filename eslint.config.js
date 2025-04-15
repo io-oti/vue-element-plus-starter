@@ -32,8 +32,8 @@ export default defineConfig([
   })),
 
   {
-    name: 'app/vitest-files-to-lint',
     ...pluginVitest.configs.recommended,
+    name: 'app/vitest-files-to-lint',
     files: ['src/**/__tests__/*'],
   },
 

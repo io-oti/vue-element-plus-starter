@@ -25,13 +25,13 @@ export default defineConfig({
           // lodash: ['debounce', 'throttle'],
         },
       ],
-      resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver({ importStyle: 'sass' })],
       viteOptimizeDeps: true,
       eslintrc: { enabled: true, globalsPropValue: 'readonly' },
       dts: false,
     }),
     VueComponents({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver({ importStyle: 'sass' })],
       dts: false,
     }),
     Icons({ autoInstall: true }),
@@ -44,6 +44,8 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
+        // 使用 element-plus 自定义样式变量
+        additionalData: `@use "@/styles/element/custom.scss" as *;`,
         api: 'modern-compiler',
       },
     },

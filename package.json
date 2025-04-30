@@ -12,6 +12,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^13.1.0",
     "axios": "^1.8.4",
     "element-plus": "^2.9.7",
     "file-saver": "^2.0.5",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@iconify-json/ep": "^1.2.2",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vitest/eslint-plugin": "^1.1.39",
     "@vue/eslint-config-prettier": "^10.2.0",
@@ -30,6 +33,7 @@
     "globals": "^16.0.0",
     "jsdom": "^26.0.0",
     "prettier": "3.5.3",
+    "sass-embedded": "^1.87.0",
     "unplugin-auto-import": "^19.1.2",
     "unplugin-icons": "^22.1.0",
     "unplugin-vue-components": "^28.5.0",

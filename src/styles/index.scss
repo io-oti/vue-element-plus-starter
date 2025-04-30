@@ -1,0 +1,36 @@
+// import dark theme
+@use 'element-plus/theme-chalk/dark/css-vars.css' as *;
+
+:root {
+  --size-xs: 4px;
+  --size-sm: 8px;
+  --size-md: 12px;
+  --size-lg: 16px;
+  --size-xl: 20px;
+  --size-xxl: 24px;
+
+  --header-height: 60px;
+  --footer-height: 60px;
+  --main-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+body {
+  font-family:
+    Inter, system-ui, Avenir, 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+a {
+  color: #00bd7e;
+  text-underline-offset: 0.2em;
+}
+
+code {
+  padding: 2px 4px;
+  color: var(--el-color-primary);
+  background-color: var(--el-color-primary-light-9);
+  border-radius: 2px;
+}
